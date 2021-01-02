@@ -8,9 +8,18 @@ html {
     min-height: 100%;
 }
 
+.blue {
+    background-color: #364CA1;
+}
+
+.white {
+    background-color: #EAF4FC;
+}
+
 body {
     height: calc(100vh - 8em);
     padding: 0;
+    margin: 0;
     color: black;
     font-family: 'Anonymous Pro', monospace;
 }
@@ -92,6 +101,30 @@ body {
     font-size: 20px;
 }
 
+.spikes {
+    position: relative;
+    background: #2c3e50;
+    height: 50vh;
+}
+
+.spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 35px;
+    background-size: 35px 100%;
+    background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+    background-position: 0 0;
+}
+
+section {
+    height: calc(100% - 8em);
+}
+
 /*section::after {
     content: '';
     display: block;
@@ -115,7 +148,7 @@ h2 {
 
 .h2_bg {
     color: #364CA1;
-    padding: 14vh;
+    padding: 16vh;
     /*TODO FIX ZOOM*/
 }
 
@@ -203,7 +236,7 @@ footer {
     border: 20px solid #364ca1;
     height: 100%;
     margin: 0;
-    height: calc(100% - 34px);
+    height: calc(100% - 10px);
 
 }
 

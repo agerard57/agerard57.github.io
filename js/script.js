@@ -1,7 +1,7 @@
 var handlerFired;
 window.addEventListener('scroll', function (e)
 {
-    var containerTop = document.querySelector('.presentation').getBoundingClientRect().top;
+    var containerTop = document.querySelector('#fade3').getBoundingClientRect().top;
     if (containerTop <= 0)
     {
         if (!handlerFired)
