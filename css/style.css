@@ -10,11 +10,43 @@ html {
 
 .blue {
     background-color: #364CA1;
-    color:white;
+    color: white;
 }
 
 .white {
     background-color: #EAF4FC;
+}
+
+.presentation_grid-container {
+    position: absolute;
+    top: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 66px;
+    grid-template-areas: ". Presentation_Title Presentation_Img ."
+        ". Presentation_Text Presentation_Img .";
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.presentation_text {
+    grid-area: Presentation_Text;
+}
+
+#presentation_text {
+    margin: 0 auto;
+    text-align: justify;
+    width: 30em;
+}
+
+.presentation_title {
+    grid-area: Presentation_Title;
+}
+
+.presentation_img {
+    grid-area: Presentation_Img;
+    margin: 0 auto;
 }
 
 body {
@@ -28,10 +60,28 @@ body {
 #head {
     width: 256px;
     height: auto;
-    float: right;
-    top: 0;
-    right: 0;
-    position: relative;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease;
+}
+
+#head:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+
+@-webkit-keyframes saturate {
+
+    0%,
+    100% {
+        -webkit-filter: saturate(none);
+    }
+
+    50% {
+        -webkit-filter: saturate(10);
+    }
 }
 
 #logo {
@@ -124,7 +174,7 @@ body {
 }
 
 section {
-    height:100%;
+    height: 100%;
 }
 
 /*section::after {
@@ -138,10 +188,11 @@ section {
     margin-left: -150px;
     background: rgba(117, 81, 125, 0.15);
 }*/
-#about_table{
+#about_table {
     padding: 0 16% 0 16%;
     text-align: justify;
 }
+
 h2 {
     text-align: center;
     font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
