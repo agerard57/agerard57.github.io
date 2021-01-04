@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="css/style.css" rel="stylesheet">
-    <script src="js/script.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -22,7 +21,7 @@
         </div>
         <div class="fade">
             <p id="fade1">Je suis un étudiant en informatique. J'espère me spécialiser en design et front-end :)</p>
-            <p id="fade2">Vous pouvez voir <a id="a_fade" href="#projets">sur quoi j'ai déjà travaillé plus bas</a>,</p>
+            <p id="fade2">Vous pouvez voir <a id="a_fade" href="#projets">ce sur quoi j'ai déjà travaillé plus bas</a>,</p>
             <p id="fade3"><b>bonne visite !</b></p>
         </div>
     </div>
@@ -36,7 +35,8 @@
                 <img id="head" src="medias/moi.jpg">
             </div>
             <div class="presentation_text">
-                <p id="presentation_text">Je suis donc, comme dit auparavant, un étudiant en deuxième année d'informatique. Je suis une
+                <p id="presentation_text">Je suis donc, comme dit auparavant, un étudiant en deuxième année
+                    d'informatique. Je suis une
                     personne
                     sociale et
                     j'ai pu, grâce à mes différents postes et expériences acquises, devenir une personne qui
@@ -51,41 +51,71 @@
     <section class="white">
         <h2>Projets</h2>
         <p>Voici les divers projets auquels je me suis retrouvé confronté !</p>
+
+        <div id="myModal" class="modal">
+            <!-- contenu pop-up -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-title">Titre</h2>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-text">Lorem Ipsum</p>
+                </div>
+                <div class="modal-footer">
+                    <h3 id="modal-languages">Langages - xxxxxxxxxxxxxxxxx</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="white">
+        <h2>Projets</h2>
         <div>
             <h3>Projets Scolaires</h3>
             <div>
                 <h3>Semestre 1</h3>
                 <!--<embed src="medias/CV.pdf" type="application/pdf" height="1000px" width="50%"> -->
-                <div><a>
-                        <img src="">
+                <div>
+                    <a>
+                        <img class="project-img" src="medias/img/c.jpg">
                         <h3>Projet C</h3>
-                        <p></p>
-                    </a></div>
+                        <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation dans un
+                            travail de groupe</p>
+                        <button id="myBtn-C">Plus de détails...</button>
+                    </a>
+                </div>
                 <div><a>
                         <img src="">
                         <h3>Développement d'un site web statique</h3>
                         <p></p>
-                    </a></div>
+                    </a>
+                </div>
+                <div>
+                    <h3>Semestre 2</h3>
+                    <div>
+                        <a>
+                            <img src="">
+                            <h3>Développement d'un site web</h3>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <img src="">
+                            <h3>Réalisation d'un logiciel de dessin assisté</h3>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <img src="">
+                            <h3>Projet CPOA</h3>
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>Semestre 2</h3>
-                <div><a>
-                        <img src="">
-                        <h3>Développement d'un site web</h3>
-                        <p></p>
-                    </a></div>
-                <div><a>
-                        <img src="">
-                        <h3>Réalisation d'un logiciel de dessin assisté</h3>
-                        <p></p>
-                    </a></div>
-                <div><a>
-                        <img src="">
-                        <h3>Projet CPOA</h3>
-                        <p></p>
-                    </a></div>
-            </div>
-        </div>
     </section>
     <footer>
         <ul id="navbar">
@@ -107,5 +137,6 @@
         </ul>
     </footer>
 </body>
+<script src="js/script.js" type="text/javascript"></script>
 
 </html>
