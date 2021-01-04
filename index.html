@@ -3,15 +3,32 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>GERARD Alexandre</title>
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="screen">
 
         <img src="medias/logo/GA.png" alt="Logo GA" id="logo">
@@ -21,12 +38,13 @@
         </div>
         <div class="fade">
             <p id="fade1">Je suis un étudiant en informatique. J'espère me spécialiser en design et front-end :)</p>
-            <p id="fade2">Vous pouvez voir <a id="a_fade" href="#projets">ce sur quoi j'ai déjà travaillé plus bas</a>,</p>
+            <p id="fade2">Vous pouvez voir <a id="a_fade" href="#projets">ce sur quoi j'ai déjà travaillé plus bas</a>,
+            </p>
             <p id="fade3"><b>bonne visite !</b></p>
         </div>
     </div>
 
-    <section class="blue spikes" id="about">
+    <section class="blue spikes section100" id="about">
         <div class="presentation_grid-container">
             <div class="presentation_title">
                 <h2>Présentation</h2>
@@ -48,74 +66,284 @@
             </div>
         </div>
     </section>
-    <section class="white">
-        <h2>Projets</h2>
-        <p>Voici les divers projets auquels je me suis retrouvé confronté !</p>
 
-        <div id="myModal" class="modal">
-            <!-- contenu pop-up -->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <h2 id="modal-title">Titre</h2>
-                </div>
-                <div class="modal-body">
-                    <p id="modal-text">Lorem Ipsum</p>
+    <div id="myModal" class="modal">
+        <!-- contenu pop-up -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 id="modal-title">Titre</h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal_grid-container">
+                    <div class="modal-incontent">
+                        <p id="modal-semester"><b>Semestre</b> X</p>
+                        <p id="modal-duree"><b>Durée :</b> X semaines</p>
+                        <p id="modal-nbpers"><b>Nombre de personnes dans le groupe :</b> X</p>
+
+                        </br>
+
+                        <h3><b>Description du projet :</b></h3>
+                        <p id="modal-desc">Lorem Ipsum</p>
+
+                        </br>
+
+                        <h3><b>Compétenses visés :</b></h3>
+                        <p id="modal-comp">Lorem Ipsum</p>
+
+                        </br>
+
+                        <h3><b>Lien du projet :</b></h3>
+                        <a target="_blank" id="modal-github-link" href="https://www.github.com">
+                            <img id="modal-github" src="medias/img/git.png" />
+                        </a>
+                    </div>
+                    <div class="modal-img">
+                        <img id="modal-img" src="medias/img/web1.png" />
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <h3 id="modal-languages">Langages - xxxxxxxxxxxxxxxxx</h3>
                 </div>
             </div>
-
         </div>
-    </section>
-    <section class="white">
+    </div>
+
+    <section class="white" id="projets">
+
         <h2>Projets</h2>
+        <p class="desc">Voici les divers projets auquels je me suis retrouvé confronté !</p>
         <div>
-            <h3>Projets Scolaires</h3>
-            <div>
-                <h3>Semestre 1</h3>
-                <!--<embed src="medias/CV.pdf" type="application/pdf" height="1000px" width="50%"> -->
-                <div>
-                    <a>
-                        <img class="project-img" src="medias/img/c.jpg">
-                        <h3>Projet C</h3>
-                        <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation dans un
-                            travail de groupe</p>
-                        <button id="myBtn-C">Plus de détails...</button>
-                    </a>
-                </div>
-                <div><a>
-                        <img src="">
-                        <h3>Développement d'un site web statique</h3>
-                        <p></p>
-                    </a>
-                </div>
-                <div>
-                    <h3>Semestre 2</h3>
-                    <div>
-                        <a>
-                            <img src="">
-                            <h3>Développement d'un site web</h3>
-                            <p></p>
-                        </a>
+            <h3 class="titres"><b>Projets Scolaires</b></h3>
+            <ul class="ul-semestres">
+                <li><button id="btnS1">Semestre 1</button></li>
+                <li><button id="btnS2">Semestre 2</button></li>
+                <li><button id="btnS3">Semestre 3</button></li>
+            </ul>
+
+            <div id="s1">
+                <div class="projects">
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/c.jpg">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Projet C</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation
+                                    dans
+                                    un
+                                    travail de groupe</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-C">Plus de détails...</button>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <a>
-                            <img src="">
-                            <h3>Réalisation d'un logiciel de dessin assisté</h3>
-                            <p></p>
-                        </a>
-                    </div>
-                    <div>
-                        <a>
-                            <img src="">
-                            <h3>Projet CPOA</h3>
-                            <p></p>
-                        </a>
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" id="rapnroll" src="medias/img/web1.png">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Développement d’un site web statique</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation
+                                    dans
+                                    un
+                                    travail de groupe</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-WEB1">Plus de détails...</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div id="s2">
+                <div class="projects">
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/web2.jpg">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Développement d’un site web</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation
+                                    dans
+                                    un
+                                    travail de groupe</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-WEB2">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/java.png">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Réalisation d'un logiciel de gestion d’une vidéothèque</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation
+                                    dans
+                                    un
+                                    travail de groupe</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-JAVA">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/asm.png">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Projet Assembleur x86</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Réalisation d'un jeu dans une architecture x86 en .asm</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-ASM">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/ihm.png" />
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Projet IHM</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Mise en place d'une application avec base de données de gestion des infractions</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-IHM">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="s3">
+                <div class="projects">
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" id="cpoa" src="medias/img/cpoa.png" />
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Projet CPOA</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Développer un logiciel en suivant les préceptes de l'agilité
+                                    et mettant en œuvre un ensemble de bonnes pratiques
+                                </p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-CPOA">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/php.png">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Développement d’un site web en PHP</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Création d'un site internet de news en utilisant les outils PHP ainsi qu'une base
+                                    de
+                                    données</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-PHP">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/GA_pp.jpg">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Développement d’un site web portfolio</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Création d'un site internet de type "portfolio" représentant principalement mes
+                                    projets</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-GA">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2_grid-container">
+                        <div class="p2img">
+                            <img class="project-img" src="medias/img/pokedox.png">
+                        </div>
+                        <div class="p2container">
+                            <div class="p2title">
+                                <h3>Développement d'une application hybride</h3>
+                            </div>
+                            <div class="p2desc">
+                                <p>Développement d'un pokedex dans le cadre du projet tuteuré du semestre</p>
+                            </div>
+                            <div class="p2button">
+                                <button class="btn-proj" id="myBtn-PD">Plus de détails...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="titres"><b>Projets Personnels</b></h3>
+        <div>
+            <div class="projects">
+                <div class="p2_grid-container">
+                    <div class="p2img">
+                        <img class="project-img" id="cpoa" src="medias/img/lightup.jpg">
+                    </div>
+                    <div class="p2container">
+                        <div class="p2title">
+                            <h3>Light Up</h3>
+                        </div>
+                        <div class="p2desc">
+                            <p>Création et gestion en tant que PDG d'une micro-entreprise ayant pour but la création et
+                                le
+                                développement
+                                d'une lampe de luminothérapie connectée avec une application mobile en Bluetooth
+                            </p>
+                        </div>
+                        <div class="p2button">
+                            <button class="btn-proj" id="myBtn-LIGHTUP">Plus de détails...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+
     </section>
     <footer>
         <ul id="navbar">
@@ -132,7 +360,7 @@
                 <a href="#contact">Me contacter</a>
             </li>
             <li>
-                <a href="#cv">CV</a>
+                <a target="_blank" href="medias/cv.pdf">CV</a>
             </li>
         </ul>
     </footer>
