@@ -223,8 +223,9 @@ btnga.onclick = function () {
     modalcomp.innerHTML = "- Maitrise de la création d'une page WEB (en particulier l'utilisation du JavaScript)</b>- Création d'un portefolio pour l'avenir"
 
     modallang.innerHTML = "HTML - CSS - JS"
-    modallink.display = "none"
-    modalimg.src = "medias/img/GA_PP.png"
+    modallink.href = "https://github.com/agerard57/agerard57.github"
+
+    modalimg.src = "medias/img/GA_pp.jpg"
 }
 
 var btnpd = document.getElementById("myBtn-PD");
@@ -240,7 +241,7 @@ btnpd.onclick = function () {
     modalcomp.innerHTML = "Maîtriser de nouveaux concepts de création de pages web et d'applications, notamment avec l'utilisation de ReactJS"
 
     modallang.innerHTML = "ReactJS - TSX - SCSS - JavaScript - Json - FluentUI"
-    modallink.display = "none"
+    modallink.href = "https://github.com/agerard57/Pokedex-Front"
     modalimg.src = "medias/img/m-pd.png"
 
 }
