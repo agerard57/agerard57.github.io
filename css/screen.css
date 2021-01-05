@@ -1,0 +1,81 @@
+.screen {
+    background-color: white;
+    /*background-image: url(../medias/grain.png);*/
+    background-position: center 0;
+    border: 20px solid #364ca1;
+    height: 100%;
+    margin: 0;
+    height: calc(100% - 10px);
+
+}
+
+#head {
+    width: 256px;
+    height: auto;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease;
+}
+
+#head:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.center {
+    font-family: title;
+
+}
+
+#logo {
+    display: block;
+    margin: 18px auto 90px auto;
+    width: 23em;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+    font-size: 23px;
+}
+
+
+
+#sup {
+    position: relative;
+    margin: 0 auto;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+.line-1 {
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    display: inline-block
+}
+
+
+
+
+.fade p {
+    opacity: 0;
+    transition: opacity 0.8s;
+    text-align: center;
+    height: 103%;
+    margin: 3em;
+    font-size: 20px;
+    font-family: fade;
+
+}

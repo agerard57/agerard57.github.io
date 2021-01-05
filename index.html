@@ -47,13 +47,15 @@
     <section class="blue spikes section100" id="about">
         <div class="presentation_grid-container">
             <div class="presentation_title">
-                <h2>Présentation</h2>
+                <h2>presentation</h2>
             </div>
             <div class="presentation_img">
                 <img id="head" src="medias/moi.jpg">
             </div>
-            <div class="presentation_text">
-                <p id="presentation_text">Je suis donc, comme dit auparavant, un étudiant en deuxième année
+            <div class="presentation_cv">
+            </div>
+            <div class="presentation_text" id="presentation_text">
+                <p>Je suis donc, comme dit auparavant, un étudiant en deuxième année
                     d'informatique. Je suis une
                     personne
                     sociale et
@@ -63,10 +65,17 @@
                     se révèlent
                     précieuses pour prendre aisément des décisions qui peuvent être compliquées en temps normal.
                 </p>
+                <a href="medias/cv.pdf">
+                    <div class="box-3">
+                        <div class="btn btn-cv">
+                            <span>Cliquez ici pour accéder à mon CV</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
-
+    
     <div id="myModal" class="modal">
         <!-- contenu pop-up -->
         <div class="modal-content">
@@ -109,8 +118,8 @@
         </div>
     </div>
 
-    <section class="white" id="projets">
-
+    <section class="white waves" id="projets">
+        <div class="wave"></div>
         <h2>Projets</h2>
         <p class="desc">Voici les divers projets auquels je me suis retrouvé confronté !</p>
         <div>
@@ -120,7 +129,7 @@
                 <li><button id="btnS2">Semestre 2</button></li>
                 <li><button id="btnS3">Semestre 3</button></li>
             </ul>
-
+            <div id="placeholder"></div>
             <div id="s1">
                 <div class="projects">
                     <div class="p2_grid-container">
@@ -296,7 +305,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p2_grid-container">
+                    <div class="p2_grid-container perso">
                         <div class="p2img">
                             <img class="project-img" src="medias/img/pokedox.png">
                         </div>
@@ -342,9 +351,11 @@
         </div>
         </div>
     </section>
-    <section>
 
+    <section class="blue">
+        <h2>Me contacter</h2>
     </section>
+
     <footer>
         <ul id="navbar">
             <li id="logo_animation">

@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+@font-face {
+    font-family: fade;
+    src: url(../medias/Archia-Regular.otf);
+}
+
+@font-face {
+    font-family: wtf;
+    src: url(../medias/Bebas\ Neue\ Bold.otf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(../medias/MonoLisa-Regular.otf);
+}

@@ -1,0 +1,113 @@
+.presentation_grid-container {
+    position: absolute;
+    top: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "presentation_title presentation_img"
+        "presentation_text presentation_img"
+        "presentation_cv presentation_cv";
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+
+
+.presentation_text {
+    grid-area: presentation_text;
+}
+
+.presentation_cv {
+    grid-area: presentation_cv;
+}
+
+#presentation_text {
+    margin: 0 auto;
+    text-align: justify;
+    width: 30em;
+}
+
+.presentation_title {
+    grid-area: presentation_title;
+}
+
+.presentation_img {
+    grid-area: presentation_img;
+    margin: 0 auto;
+}
+
+
+#btn-cv {
+    width: auto;
+    margin-top: 105px;
+    background-color: #000000;
+    text-align: center;
+
+}
+
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 480px;
+    cursor: pointer;
+}
+
+.btn-cv {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn-cv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.btn-cv:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.btn-cv::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.btn-cv:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.section100 {
+    height: 100%;
+}
+
+@-webkit-keyframes saturate {
+
+    0%,
+    100% {
+        -webkit-filter: saturate(none);
+    }
+
+    50% {
+        -webkit-filter: saturate(10);
+    }
+}
