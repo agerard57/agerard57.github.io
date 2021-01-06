@@ -1,6 +1,5 @@
 .presentation_grid-container {
-    position: absolute;
-    top: 50%;
+    top: 57%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1.7fr 1fr;
@@ -8,11 +7,33 @@
     grid-template-areas: "presentation_title presentation_img"
         "presentation_text presentation_img"
         "presentation_cv presentation_cv";
-    width: 100%;
     transform: translateY(-50%);
+    width: 958px;
+    position: relative;
+    margin: 0 auto;
 }
 
+#head {
+    width: 261px;
+    height: auto;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease;
+}
 
+ul>li>button {
+    margin-bottom: 44px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    padding: 22px 236px 22px 236px;
+    border-radius: 9px;
+}
+
+#head:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
 
 .presentation_text {
     grid-area: presentation_text;
@@ -26,10 +47,18 @@
     margin: 0 auto;
     text-align: justify;
     width: 30em;
+    font-family: 'Roboto',
+        sans-serif;
 }
 
 .presentation_title {
     grid-area: presentation_title;
+}
+
+.presentation_title>h2 {
+    text-align: end;
+    padding: 40px 0 0px 0;
+    margin: 0;
 }
 
 .presentation_img {

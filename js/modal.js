@@ -35,6 +35,7 @@ btnc.onclick = function () {
     modalcomp.innerHTML = "Maîtriser les concepts de l'algorithmique et de la programmation"
 
     modallang.innerHTML = "Langage C"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/JEU_DE_NIM"
 
     modalimg.src = "medias/img/m-c.png"
@@ -52,6 +53,7 @@ btnw1.onclick = function () {
     modalcomp.innerHTML = "- Aptitudes à synthétiser l’information écrite et sa présentation orale </br>- Maitrise de la recherche documentaire </br>- Aptitudes à la synthèse des compétences techniques acquises"
 
     modallang.innerHTML = "HTML5 - CSS3"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/Rap-n-Roll"
 
     modalimg.src = "medias/img/m-web1.png"
@@ -70,6 +72,7 @@ btnw2.onclick = function () {
     modalcomp.innerHTML = "- Mise en pratique de la méthodologie de conduite de projets </br>- Développement des compétences d’autonomie et d’initiative de l’étudiant </br>- Développement des aptitudes au travail en équipe"
 
     modallang.innerHTML = "HTML5 - CSS3 - JavaScript"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/AAEIUTM"
 
     modalimg.src = "medias/img/m-web2.png"
@@ -88,6 +91,7 @@ btnj.onclick = function () {
     modalcomp.innerHTML = "- Programmation par objet</br>- UML</br>- Langage Java (classe, héritage, gestion d'une interface graphique complète et gestion des événements graphiques…) "
 
     modallang.innerHTML = "Java"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/Videotheque_JAVA"
 
     modalimg.src = "medias/img/m-java.png"
@@ -106,6 +110,7 @@ btnasm.onclick = function () {
     modalcomp.innerHTML = "Maîtriser les concepts de fonctionnement d'un ordinateur"
 
     modallang.innerHTML = "Assembleur 8086"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/JEU_8086_ASM"
 
     modalimg.src = "medias/img/m-asm.jpg"
@@ -124,6 +129,7 @@ btnihm.onclick = function () {
     modalcomp.innerHTML = "- Maîtriser les concepts d'ergonomie et d'UX</br>- Gérer l'implémentation d'une BDD dans un projet"
 
     modallang.innerHTML = "Pascal"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/Projet-IHM"
 
     modalimg.src = "medias/img/m-ihm.png"
@@ -142,6 +148,7 @@ btncpoa.onclick = function () {
     modalcomp.innerHTML = "- Programmation événementielle</br>- JDBC</br>- Design Pattern DAO</br>- Architecture MVC</br>- Tests unitaires"
 
     modallang.innerHTML = "Java - JavaFX - JUnit - mySQL - Git"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/GERARD_GIANGRECO_CPOA_TD1_2020"
 
     modalimg.src = "medias/img/m-cpoa.png"
@@ -160,6 +167,7 @@ btnphp.onclick = function () {
     modalcomp.innerHTML = "- Maitrise de l'implémentation de la PHP</br>- Maitrise de l'implémentation de bases de données dans un projet"
 
     modallang.innerHTML = "PHP - CSS - JS"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/PHP_projet"
 
     modalimg.src = "medias/img/m-php.png"
@@ -175,9 +183,10 @@ btnga.onclick = function () {
     modalnbpers.innerHTML = "<b>Nombre de personnes dans le groupe :</b> 1"
 
     modalcontent.innerHTML = "Création d'un site internet de type \"portfolio\" représentant principalement mes projets"
-    modalcomp.innerHTML = "- Maitrise de la création d'une page WEB (en particulier l'utilisation du JavaScript)</b>- Création d'un portefolio pour l'avenir"
+    modalcomp.innerHTML = "- Maitrise de la création d'une page WEB (en particulier l'utilisation du JavaScript)</br>- Création d'un portefolio pour l'avenir"
 
     modallang.innerHTML = "HTML - CSS - JS"
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/agerard57.github"
 
     modalimg.src = "medias/img/GA_pp.jpg"
@@ -196,6 +205,8 @@ btnpd.onclick = function () {
     modalcomp.innerHTML = "Maîtriser de nouveaux concepts de création de pages web et d'applications, notamment avec l'utilisation de ReactJS"
 
     modallang.innerHTML = "ReactJS - TSX - SCSS - JavaScript - Json - FluentUI"
+    
+    modalgit.src = "medias/img/git.png"
     modallink.href = "https://github.com/agerard57/Pokedex-Front"
     modalimg.src = "medias/img/m-pd.png"
 

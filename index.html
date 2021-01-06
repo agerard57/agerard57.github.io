@@ -75,7 +75,7 @@
             </div>
         </div>
     </section>
-    
+
     <div id="myModal" class="modal">
         <!-- contenu pop-up -->
         <div class="modal-content">
@@ -83,7 +83,7 @@
                 <span class="close">&times;</span>
                 <h2 id="modal-title">Titre</h2>
             </div>
-            <div class="modal-body">
+            <div>
                 <div class="modal_grid-container">
                     <div class="modal-incontent">
                         <p id="modal-semester"><b>Semestre</b> X</p>
@@ -118,8 +118,10 @@
         </div>
     </div>
 
-    <section class="white waves" id="projets">
-        <div class="wave"></div>
+    <section class="white" id="projets">
+        <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+            <source src="medias/bg/bg.mp4" type="video/mp4">
+        </video>
         <h2>Projets</h2>
         <p class="desc">Voici les divers projets auquels je me suis retrouvé confronté !</p>
         <div>
@@ -352,10 +354,67 @@
         </div>
     </section>
 
-    <section class="blue">
-        <h2>Me contacter</h2>
-    </section>
+    <section class="blue cut" id="contact">
+        <div class="skewed"></div>
+        <div id="contact-part">
+            <h2>Me contacter</h2>
+            <form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post"
+                onsubmit="return ValidateForm(this);" target="_top">
+                <input name="skip_WhereToSend" type="hidden" value="agerard57@protonmail.com" />
+                <input name="skip_SnapHostID" type="hidden" value="Q6XXJCGA3C39" />
+                <input name="skip_WhereToReturn" type="hidden" value="https://agerard57.github.io/html/merci.html" />
+                <input name="skip_Subject" type="hidden" value="Contact Us Form" />
+                <input name="skip_ShowUsersIp" type="hidden" value="1" />
+                <input name="skip_SendCopyToUser" type="hidden" value="1" />
 
+                <table border="0" cellpadding="5" cellspacing="0" width="600">
+                    <tr>
+                        <td><b>Name*:</b></td>
+                        <td><input name="Name" type="text" maxlength="60" style="width:350px;" /></td>
+                    </tr>
+                    <tr>
+                        <td><b>Phone number:</b></td>
+                        <td><input name="PhoneNumber" type="text" maxlength="43" style="width:350px;" /></td>
+                    </tr>
+                    <tr>
+                        <td><b>Email address*:</b></td>
+                        <td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" /></td>
+                    </tr>
+                    <tr>
+                        <td><b>Comments and questions*:</b></td>
+                        <td><textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"> <br />
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td colspan="2" style="padding-bottom:18px;">
+                                        <a href="http://www.snaphost.com/captcha/CaptchaCode.aspx"
+                                            alt="create free forms" title="create free forms">
+                                            create free forms</a></td>
+                                </tr>
+                                <tr valign="top">
+                                    <td> <i>Enter web form code*:</i>
+                                        <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
+                                    </td>
+                                    <td>
+                                        <a href="https://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img
+                                                id="CaptchaImage" alt="Contact Us form"
+                                                title="HTML code for Contact Us form" style="margin-left:20px;"
+                                                src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=Q6XXJCGA3C39&ImgType=2" /></a><br />
+                                        <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
+                                                style="font-size:12px;">reload image</span></a> </td>
+                                </tr>
+                            </table> <br />
+                            * - required fields. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input name="skip_Submit" type="submit" value="Submit" />
+                        </td>
+                    </tr>
+                </table><br />
+            </form>
+        </div>
+    </section>
+    <div id="end"></div>
     <footer>
         <ul id="navbar">
             <li id="logo_animation">

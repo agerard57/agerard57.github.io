@@ -9,6 +9,8 @@ var s2 = document.getElementById("s2");
 var s3 = document.getElementById("s3");
 
 btns1.onclick = function () {
+    btns1.style.backgroundColor="#2a2a72"
+    btns1.style.backgroundImage="linear-gradient(315deg, rgb(61 61 240) 0%, rgb(133 193 255) 74%);"
     setTimeout(() => {
     placeholder.style.display= "none"
     s1.style.opacity = "1";

@@ -1,0 +1,37 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Roboto';
+    font-size: 28px;
+    border-top: 6px solid #364CA1;
+    border-bottom: 6px solid #364CA1;
+    padding: 21px;
+    width: -webkit-fill-available;
+    background-color: #959effb3;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+    --darkreader-inline-color: #e8e6e3;
+    --darkreader-inline-bgimage: initial;
+    --darkreader-inline-bgcolor: #242728;
+}

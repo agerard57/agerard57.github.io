@@ -57,10 +57,15 @@ ul>li {
 }
 
 .white {
-    background-color: #F9F9F9;
     padding: 100px 0 100px 0;
 }
 
 .white>h2 {
     text-shadow: 2px 2px 0#87a0ff;
+}
+
+#end {
+    height: 67px;
+    width: auto;
+    background-color: #364CA1;
 }
