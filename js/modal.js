@@ -222,7 +222,7 @@ btnlu.onclick = function () {
     modalnbpers.innerHTML = "<b>Nombre de personnes dans le groupe :</b> 7"
 
     modalcontent.innerHTML = "Création et gestion en tant que PDG d'une micro-entreprise ayant pour but la création et le développement d'une lampe de luminothérapie connectée avec une application mobile en Bluetooth"
-    modalcomp.innerHTML = "- Esprit d'équipe</br>- Développement d'un site internet</br>- Gestion d'une équipe</br>- Codage de cartes microprossesseur (arduino)</br>- Codage d'une application mobile cross-platform"
+    modalcomp.innerHTML = "- Esprit d'équipe</br>- Développement d'un site internet</br>- Gestion d'une équipe</br>- Codage sur cartes microprossesseurs (arduino)</br>- Codage d'une application mobile cross-platform"
 
     modallang.innerHTML = "C++ - C# - Python"
 

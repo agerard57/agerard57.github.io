@@ -26,9 +26,12 @@ ul>li>button {
     margin-bottom: 44px;
     font-family: 'Roboto';
     font-size: 22px;
-    padding: 22px 236px 22px 236px;
+    padding: 22px 150px 22px;
     border-radius: 9px;
     background-color: #222334;
+    box-shadow: 3px 2px 0#87a0ff;
+    transition: all 0.5s ease;
+    outline: none;
 }
 
 #head:hover {
@@ -58,7 +61,7 @@ ul>li>button {
 }
 
 .presentation_title>h2 {
-    text-align: end;
+    text-align: center;
     padding: 40px 0 0px 0;
     margin: 0;
 }

@@ -9,10 +9,15 @@ var s2 = document.getElementById("s2");
 var s3 = document.getElementById("s3");
 
 btns1.onclick = function () {
-    btns1.style.backgroundColor="#2a2a72"
-    btns1.style.backgroundImage="linear-gradient(315deg, rgb(61 61 240) 0%, rgb(133 193 255) 74%);"
+    btns1.style.backgroundColor = "rgb(50 52 72)";
+    btns2.style.backgroundColor = "#222334";
+    btns3.style.backgroundColor = "#222334";
+
+    btns1.style.padding= "25px 150px 19px 150px";
+    btns2.style.padding= "22px 150px 22px 150px";
+    btns3.style.padding= "22px 150px 22px 150px";
     setTimeout(() => {
-    placeholder.style.display= "none"
+    placeholder.style.display = "none";
     s1.style.opacity = "1";
     s2.style.opacity = "0";
     s3.style.opacity = "0";
@@ -23,8 +28,15 @@ btns1.onclick = function () {
 }
 
 btns2.onclick = function () {
+    btns1.style.backgroundColor = "#222334";
+    btns2.style.backgroundColor = "rgb(50 52 72)";
+    btns3.style.backgroundColor = "#222334";
+
+    btns1.style.padding= "22px 150px 22px 150px";
+    btns2.style.padding= "25px 150px 19px 150px";
+    btns3.style.padding= "22px 150px 22px 150px";
     setTimeout(() => {
-    placeholder.style.display= "none"
+    placeholder.style.display = "none";
     s1.style.opacity = "0";
     s2.style.opacity = "1";
     s3.style.opacity = "0";
@@ -35,8 +47,15 @@ btns2.onclick = function () {
 }
 
 btns3.onclick = function () {
+    btns1.style.backgroundColor = "#222334";
+    btns2.style.backgroundColor = "#222334";
+    btns3.style.backgroundColor = "rgb(50 52 72)";
+
+    btns1.style.padding= "22px 150px 22px 150px";
+    btns2.style.padding= "22px 150px 22px 150px";
+    btns3.style.padding= "25px 150px 19px 150px";
     setTimeout(() => {
-    placeholder.style.display= "none"
+    placeholder.style.display = "none";
     s1.style.opacity = "0";
     s2.style.opacity = "0";
     s3.style.opacity = "1";
