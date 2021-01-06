@@ -22,11 +22,13 @@
 }
 
 ul>li>button {
+    color: white;
     margin-bottom: 44px;
     font-family: 'Roboto';
     font-size: 22px;
     padding: 22px 236px 22px 236px;
     border-radius: 9px;
+    background-color: #222334;
 }
 
 #head:hover {
