@@ -15,16 +15,18 @@
 
 #head {
     width: 261px;
+    padding-top: 17px;
     height: auto;
-    filter: gray;
-    -webkit-filter: grayscale(1);
+    filter: opacity(0.8);
+    -webkit-filter: opacity(0.8);
     -webkit-transition: all .5s ease;
 }
 
 ul>li>button {
     color: white;
     margin-bottom: 44px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat',
+        sans-serif;
     font-size: 22px;
     padding: 22px 150px 22px;
     border-radius: 9px;
@@ -144,4 +146,36 @@ ul>li>button {
     50% {
         -webkit-filter: saturate(10);
     }
+}
+
+#html,
+#bash,
+#sql,
+#c,
+#java,
+#python {
+    padding-top: 12px;
+    height: 76px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    display: none;
+    background-color: #00000038;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    display: block;
 }
