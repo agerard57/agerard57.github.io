@@ -1,26 +1,26 @@
 function ValidateForm(frm) {
     if (frm.Name.value == "") {
-        alert('Name is required.');
+        alert('Le nom est requis.');
         frm.Name.focus();
         return false;
     }
     if (frm.FromEmailAddress.value == "") {
-        alert('Email address is required.');
+        alert('L\'adresse e-mail est requise.');
         frm.FromEmailAddress.focus();
         return false;
     }
     if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {
-        alert('Please enter a valid email address.');
+        alert('Veuillez entrer une adresse e-mail valide.');
         frm.FromEmailAddress.focus();
         return false;
     }
     if (frm.Comments.value == "") {
-        alert('Please enter comments or questions.');
+        alert('Le contenu est vide.');
         frm.Comments.focus();
         return false;
     }
     if (frm.skip_CaptchaCode.value == "") {
-        alert('Enter web form code.');
+        alert('Captcha vide.');
         frm.skip_CaptchaCode.focus();
         return false;
     }

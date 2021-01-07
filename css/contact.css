@@ -1,3 +1,57 @@
 #contact-part {
     position: inherit;
 }
+
+#ContactUsCaptchaWebForm {
+    position: inherit;
+    text-align: end;
+    margin: 0 auto;
+    width: 637px;
+    padding: 27px;
+}
+
+#contact,
+#num {
+    font-family: "Roboto";
+}
+
+#btnCp {
+    font-size: 12px;
+    padding: 29px;
+    color: rgb(163, 163, 163);
+    text-decoration-line: underline;
+}
+
+input,
+textarea {
+    border-radius: 6px;
+    border-color: #9191ff;
+    font-family: "Roboto";
+
+}
+
+.textcontact {
+    text-align: center;
+    padding: 27px;
+}
+
+#imgfield>a>img {
+    width: 100px;
+    height: auto;
+    padding: 58px;
+    filter: contrast(1);
+    -webkit-filter: contrast(1);
+    -moz-filter: contrast(1);
+    transition: all 0.5s ease;
+}
+
+
+#imgfield {
+    text-align: center;
+}
+
+#imgfield>a>img:hover {
+    filter: contrast(0.7);
+    -webkit-filter: contrast(0.7);
+    -moz-filter: contrast(0.7);
+}
