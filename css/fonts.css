@@ -20,3 +20,7 @@
     font-family: title;
     src: url(../medias/MonoLisa-Regular.otf);
 }
+
+button {
+    cursor: pointer;
+}

@@ -54,3 +54,12 @@ textarea {
     -webkit-filter: contrast(0.7);
     -moz-filter: contrast(0.7);
 }
+
+#btnGO {
+    cursor: pointer;
+}
+
+table,
+#num {
+    font-family: 'Courier New', Courier, monospace;
+}
