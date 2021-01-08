@@ -1,12 +1,11 @@
 .screen {
     background-color: white;
-    /*background-image: url(../medias/grain.png);*/
     background-position: center 0;
     border: 1.3vw solid #364ca1;
     height: 100%;
+    overflow: hidden;
     margin: 0;
-    height: calc(100% - 10px);
-
+    height: calc(100% - 20px);
 }
 
 .center {

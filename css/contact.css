@@ -58,8 +58,3 @@ textarea {
 #btnGO {
     cursor: pointer;
 }
-
-table,
-#num {
-    font-family: 'Courier New', Courier, monospace;
-}

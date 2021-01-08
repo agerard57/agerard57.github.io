@@ -1,8 +1,8 @@
 .presentation_grid-container {
-    top: 57%;
+    top: 18%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 1.7fr 1fr;
+    grid-template-rows: 0.2fr 0.6fr 1fr;
     gap: 0px 0px;
     grid-template-areas: "presentation_title presentation_img"
         "presentation_text presentation_img"
@@ -133,7 +133,7 @@ ul>li>button {
 }
 
 .section100 {
-    height: 100%;
+    height: 84vh;
 }
 
 @-webkit-keyframes saturate {
@@ -178,4 +178,104 @@ ul>li>button {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     display: block;
+}
+
+#comp {
+    width: 147%;
+    height: 272px;
+    margin: auto;
+    text-align: center;
+}
+
+#comp>div>h3 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.progress {
+    height: 20px;
+    /* Can be anything */
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.one {
+    width: 15%;
+    height: 200px;
+    float: left;
+}
+
+.two {
+    margin-left: 83%;
+    height: 200px;
+}
+
+.meter {
+    height: 20px;
+    width: 390px;
+    /* Can be anything */
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter>span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(32 59 165);
+    background-image: linear-gradient(center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.meter>span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(-45deg,
+            rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent);
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: move 2s linear infinite;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+#comp:before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid white;
+    margin: auto;
+    display: block;
+    width: 480px;
+    fill: white;
+    margin: -4px auto 0 auto;
+    float: left;
 }
