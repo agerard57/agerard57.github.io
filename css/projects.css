@@ -186,3 +186,42 @@
 #projets {
     margin-bottom: 12vh;
 }
+
+#cpt div {
+    opacity: 0;
+}
+
+@keyframes animation {
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate div {
+    animation: animation .5s forwards;
+}
+
+#cpt .c1,
+#cpt .c5 {
+    animation-delay: .5s;
+}
+
+#cpt .c2,
+#cpt .c6 {
+    animation-delay: 1s;
+}
+
+#cpt .c3,
+#cpt .c7 {
+    animation-delay: 1.5s;
+}
+
+#cpt .c4,
+#cpt .c8 {
+    animation-delay: 2s;
+}
+
+#cpt .l1,
+#cpt .l2 {
+    animation-delay: 2.5s;
+}
