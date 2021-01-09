@@ -40,7 +40,9 @@ h2 {
 }
 
 #proj:before,
-#proj::after {
+#proj::after,
+#compe:before,
+#compe::after {
     content: "";
     flex: 1 1;
     border-bottom: 2px solid #708dff;
@@ -89,7 +91,7 @@ h4:after {
 .desc {
     text-align: center;
     font-family: 'fade';
-    font-size: 30px;
+    font-size: 3vmin;
 }
 
 
@@ -111,4 +113,9 @@ h4:after {
     height: 67px;
     width: auto;
     background-color: #364CA1;
+}
+
+#compe {
+    text-shadow: 2px 2px 0#87a0ff;
+    margin: 53px 0px 73px 0;
 }
